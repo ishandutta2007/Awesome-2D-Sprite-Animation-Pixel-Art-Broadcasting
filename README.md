@@ -1,10 +1,14 @@
-# Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting
+# Awesome 2D Sprite Animation & Pixel Art Broadcasting [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome 2D Sprite Animation & Pixel Art Broadcasting [![Awesome](https://awesome.re)](https://awesome.re)
+> A curated collection of top open-source tools, sprite animation suites, pixel art editors, game development assets, and live art broadcasting & streaming utilities. 🌟 Star if you find this useful! 🌟
 
-> Top 2D Sprite Animation Pixel Art Broadcasting (Opensource) 🌟 Star if you like it! 🌟
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting?style=flat-square)](https://github.com/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-A curated list of top open-source tools, self-hosted broadcasting/streaming solutions, and hosted platforms for 2D sprite animation, pixel art creation, and live art broadcasting.
+Whether you are an indie game developer, retro pixel artist, animator, streamer, or VTuber/PNGTuber, this directory indexes the best open-source and hosted solutions for creating 2D sprites, timeline animation, tilemaps, procedural pixel art, and broadcasting live drawing sessions.
+
+---
 
 ## Contents
 
@@ -12,10 +16,11 @@ A curated list of top open-source tools, self-hosted broadcasting/streaming solu
   - [Sprite Editors & Animation Suites](#sprite-editors--animation-suites)
   - [Web-Based Pixel Editors](#web-based-pixel-editors)
   - [AI-Assisted & Procedural Sprite Tools](#ai-assisted--procedural-sprite-tools)
-  - [General 2D Suites with Pixel & Animation Support](#general-2d-suites-with-pixel--animation-support)
+  - [General 2D Animation Suites with Pixel Support](#general-2d-animation-suites-with-pixel-support)
   - [Pixel Art Broadcasting, Streaming & PNGTuber Tools](#pixel-art-broadcasting-streaming--pngtuber-tools)
   - [Retro & Hardware-Focused Pixel Tools](#retro--hardware-focused-pixel-tools)
 - [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Keywords & Related Topics](#keywords--related-topics)
 - [Contributing](#contributing)
 
 ---
@@ -49,9 +54,9 @@ A curated list of top open-source tools, self-hosted broadcasting/streaming solu
 - **[proper-pixel-art](https://github.com)** - Open-source tool for cleaning up and fixing grid alignment on AI-generated or upscaled pixel art images (`MIT`).
 - **[Data-Pixels](https://github.com)** - JavaScript library for generating pixel art sprites programmatically (`MIT`).
 
-### General 2D Suites with Pixel & Animation Support
+### General 2D Animation Suites with Pixel Support
 
-- **[Krita](https://kde.org)** - Professional open-source painting program featuring dedicated pixel-art brushes, wrap-around tile mode, and a full frame-by-frame animation timeline (`GPL-3.0`).
+- **[Krita](https://kde.org)** - Professional open-source digital painting program featuring dedicated pixel-art brushes, wrap-around tile mode, and a full frame-by-frame animation timeline (`GPL-3.0`).
 - **[GIMP](https://github.com/GNOME/gimp)** - Extensible open-source raster graphics editor supporting crisp 1px pencil workflows, indexed color palettes, and layer-based GIF/sprite animations (`GPL-3.0`).
 - **[Pencil2D](https://github.com)** - Lightweight open-source 2D animation software supporting bitmap pixel frame-by-frame animation (`GPL-2.0`).
 - **[OpenToonz](https://github.com)** - Full-featured open-source 2D animation production software suitable for frame-by-frame sprite sequences and compositing (`BSD-3-Clause`).
@@ -72,19 +77,27 @@ A curated list of top open-source tools, self-hosted broadcasting/streaming solu
 
 ## SaaS & Hosted Platforms
 
-- **[Aseprite](https://aseprite.org)** - Industry-standard animated sprite editor and pixel art tool with Lua scripting, tilemap layers, and cloud/Steam integration (Source-available under EULA / Commercial).
-- **[Piskel (Hosted)](https://piskelapp.com)** - Official cloud-hosted version of the Piskel sprite editor with gallery hosting and browser storage.
-- **[Pixilart](https://pixilart.com)** - Free online pixel art drawing platform and social community with built-in animation tools, contests, and live sharing.
-- **[Lospec](https://lospec.com)** - Premier online hub for pixel art palettes, tutorials, tools, and community galleries.
-- **[Resprite](https://fengeon.com)** - Modern cross-platform pixel art studio built for desktop and mobile/tablet touch workflows with cloud sync.
-- **[Pixaki](https://rizer.co)** - Dedicated pixel art and animation studio designed specifically for iPad and Apple Pencil workflows.
-- **[Pyxel Edit](https://pyxeledit.com)** - Specialized pixel art editor focused on tileset creation, level mockups, and frame animations.
-- **[GraphicsGale](https://graphicsgale.com)** - Classic Windows pixel art and animation editor offering real-time preview, onion skinning, and palette control (Freeware).
-- **[Dottable](https://dottable.app)** - Mobile-friendly pixel art creator and social sharing platform for quick sprite animations.
-- **[Pixelart.com / Pixel Art Maker](https://pixilart.comdraw)** - Browser-based pixel canvas tools for instant sprite drawing without installation.
+| Product | Description | Pricing Model | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Aseprite](https://aseprite.org)** | Industry-standard animated sprite editor and pixel art tool with Lua scripting, tilemap layers, and timeline animation. | Paid ($19.99 one-time purchase) | Free trial available (saving disabled); source code free to compile yourself |
+| **[Piskel (Hosted)](https://piskelapp.com)** | Cloud-hosted browser version of the Piskel sprite editor with web gallery and browser saving. | Free | 100% Free, public gallery |
+| **[Pixilart](https://pixilart.com)** | Online pixel art drawing tool and social creator community with animation and contest support. | Freemium (Free / Pro from $4.99/mo) | Free access with ad support and core canvas features |
+| **[Lospec](https://lospec.com)** | Premier online hub for pixel art palettes, tutorials, web editors, and community resources. | Free (Community supported via Patreon) | Free unrestricted access to palettes and browser tools |
+| **[Resprite](https://fengeon.com)** | Modern cross-platform pixel art studio designed for desktop and iPad/tablet touch workflows. | Freemium / Paid | Free tier available on mobile with limited export/layers; one-time unlock for Pro |
+| **[Pixaki](https://rizer.co)** | Professional pixel art and animation studio optimized specifically for iPad and Apple Pencil. | Paid ($26.99 one-time) / Intro | Free intro app ("Pixaki 4 Intro") with 3 layers & 16-frame limit |
+| **[Pyxel Edit](https://pyxeledit.com)** | Specialized pixel art editor focused on tileset design, level mockups, and frame animations. | Paid ($9.00 one-time purchase) | Free older beta version available for download with limited features |
+| **[GraphicsGale](https://graphicsgale.com)** | Classic Windows pixel art and animation editor offering real-time preview, onion skinning, and palette control. | Freeware ($0) | Completely free for commercial and non-commercial use |
+| **[Dottable](https://dottable.app)** | Mobile-friendly pixel art creator and social platform for fast sprite animations on the go. | Freemium | Free with optional in-app purchases for ad removal |
+| **[Pixel Art Maker](http://pixelartmaker.com)** | Simple browser-based pixel canvas tool for drawing pixel graphics instantly without sign-up. | Free | 100% Free with basic web canvas |
+
+---
+
+## Keywords & Related Topics
+
+`pixel-art` • `sprite-animation` • `2d-animation` • `game-development` • `indie-game-dev` • `gamedev` • `aseprite` • `tileset-editor` • `pixelorama` • `libresprite` • `pngtuber` • `art-streaming` • `live-broadcasting` • `open-source` • `awesome-list`
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request to add more open-source pixel art tools, sprite animation engines, or broadcasting utilities.
+Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) or submit a Pull Request to suggest new open-source pixel art tools, sprite animation engines, or broadcasting utilities.
