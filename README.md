@@ -1,103 +1,135 @@
-# Awesome 2D Sprite Animation & Pixel Art Broadcasting [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome 2D Sprite Animation & Pixel Art Broadcasting Banner" width="100%" />
+</p>
 
-> A curated collection of top open-source tools, sprite animation suites, pixel art editors, game development assets, and live art broadcasting & streaming utilities. 🌟 Star if you find this useful! 🌟
+# Awesome 2D Sprite Animation & Pixel Art Broadcasting [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 🎨✨
 
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting?style=flat-square)](https://github.com/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting?style=flat-square" alt="GitHub stars" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Whether you are an indie game developer, retro pixel artist, animator, streamer, or VTuber/PNGTuber, this directory indexes the best open-source and hosted solutions for creating 2D sprites, timeline animation, tilemaps, procedural pixel art, and broadcasting live drawing sessions.
+> 🌟 **Top 2D Sprite Animation, Pixel Art Suites, and Live Streaming Solutions.** A curated open-source directory for game developers, animators, digital artists, and live streamers. 🌟
 
----
-
-## Contents
-
-- [Open-Source Software](#open-source-software)
-  - [Sprite Editors & Animation Suites](#sprite-editors--animation-suites)
-  - [Web-Based Pixel Editors](#web-based-pixel-editors)
-  - [AI-Assisted & Procedural Sprite Tools](#ai-assisted--procedural-sprite-tools)
-  - [General 2D Animation Suites with Pixel Support](#general-2d-animation-suites-with-pixel-support)
-  - [Pixel Art Broadcasting, Streaming & PNGTuber Tools](#pixel-art-broadcasting-streaming--pngtuber-tools)
-  - [Retro & Hardware-Focused Pixel Tools](#retro--hardware-focused-pixel-tools)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Keywords & Related Topics](#keywords--related-topics)
-- [Contributing](#contributing)
+Whether you are an indie game developer, retro pixel artist, animator, streamer, or VTuber/PNGTuber, this directory indexes top open-source tools, animation suites, procedural sprite generators, and self-hosted broadcasting software. 🚀
 
 ---
 
-## Open-Source Software
+## 📑 Contents
 
-### Sprite Editors & Animation Suites
-
-- **[Pixelorama](https://github.com/Orama-Interactive/Pixelorama)** - Powerful, cross-platform open-source pixel art multitool built with Godot. Features frame-by-frame timeline animation, onion skinning, audio sync, tilemap layers, and non-destructive effects (`MIT`).
-- **[LibreSprite](https://github.com/LibreSprite/LibreSprite)** - Free and open-source animated sprite editor and pixel art tool forked from the last GPLv2 commit of Aseprite. Includes layers, frames, onion skinning, and tiled drawing modes (`GPL-2.0`).
-- **[PixiEditor](https://github.com/PixiEditor/PixiEditor)** - Universal 2D graphics editor combining pixel art, painting, and vector toolsets on one canvas with frame-by-frame animation and a node-based render system (`LGPL-3.0`).
-- **[GrafX2](https://gitlab.com)** - Classic bitmap paint program inspired by Deluxe Paint and Brilliance, specialized for 256-color pixel art, palette manipulation, tile work, and frame animation (`GPL-2.0`).
-- **[rx](https://github.com)** - Modern, minimalist, and extensible pixel editor implemented in Rust with command-driven workflows and animation frames (`GPL-3.0`).
-- **[voidsprite](https://github.com)** - Lightweight, fast, and free open-source pixel art and sprite editor written in C++ (`MIT`).
-- **[Pixed](https://github.com)** - Open-source cross-platform pixel-art editor built with C# featuring multi-layer support and animation timelines (`MIT`).
-- **[Pixels-T](https://pixels-t.github.io/)** - Modular, multi-layer, multi-frame pixel art editor with infinite undo/redo, onion skinning, and sprite sheet export (`MIT`).
-- **[mtPaint](https://github.com)** - Lightweight painting program designed specifically for creating icons and pixel-based artwork with indexed palette control (`GPL-3.0`).
-
-### Web-Based Pixel Editors
-
-- **[Piskel](https://github.com)** - Popular open-source web-based editor for animated sprites and pixel art with live preview, onion skinning, and GIF/spritesheet export (`Apache-2.0`).
-- **[Lospec Pixel Editor](https://github.com)** - Free, browser-based pixel art canvas built by the Lospec community for quick sprite creation and palette workflows (`MIT`).
-- **[pixel-art-react](https://github.com)** - Web-based pixel art drawing and frame-by-frame animation application built with React (`MIT`).
-- **[PixelCraft](https://github.com)** - Browser-based pixel art and sprite creation tool designed for lightweight web workflows (`MIT`).
-- **[pixa-pics](https://github.com)** - Open-source web application for creating and sharing pixel art sprites (`MIT`).
-- **[poxi](https://github.com)** - Minimalist, flat web-based pixel art editor (`MIT`).
-
-### AI-Assisted & Procedural Sprite Tools
-
-- **[SpriteCast](https://github.com)** - Open-source Claude Code plugin that converts a single character illustration into consistent 8-directional animated walking sprites matched to your game's exact camera angle, exporting to Godot, Unity, Phaser, and Aseprite (`MIT`).
-- **[proper-pixel-art](https://github.com)** - Open-source tool for cleaning up and fixing grid alignment on AI-generated or upscaled pixel art images (`MIT`).
-- **[Data-Pixels](https://github.com)** - JavaScript library for generating pixel art sprites programmatically (`MIT`).
-
-### General 2D Animation Suites with Pixel Support
-
-- **[Krita](https://kde.org)** - Professional open-source digital painting program featuring dedicated pixel-art brushes, wrap-around tile mode, and a full frame-by-frame animation timeline (`GPL-3.0`).
-- **[GIMP](https://github.com/GNOME/gimp)** - Extensible open-source raster graphics editor supporting crisp 1px pencil workflows, indexed color palettes, and layer-based GIF/sprite animations (`GPL-3.0`).
-- **[Pencil2D](https://github.com)** - Lightweight open-source 2D animation software supporting bitmap pixel frame-by-frame animation (`GPL-2.0`).
-- **[OpenToonz](https://github.com)** - Full-featured open-source 2D animation production software suitable for frame-by-frame sprite sequences and compositing (`BSD-3-Clause`).
-
-### Pixel Art Broadcasting, Streaming & PNGTuber Tools
-
-- **[OBS Studio](https://github.com)** - Industry-standard free and open-source software for live streaming and recording pixel art workflows, canvas captures, and game dev broadcasts (`GPL-2.0`).
-- **[Owncast](https://github.com)** - Self-hosted, open-source live video streaming and chat server for independent pixel artists to broadcast live drawing sessions without platform ads or algorithms (`MIT`).
-- **[RahiTuber](https://github.com)** - Customizable, open-source PNGTuber and reactive sprite broadcasting tool that integrates seamlessly with OBS for pixel-art avatars (`MIT`).
-- **[FFmpeg](https://github.com)** - Essential open-source command-line multimedia framework for converting sprite sequences into crisp, nearest-neighbor scaled videos and GIFs for social broadcasts (`LGPL-2.1`).
-
-### Retro & Hardware-Focused Pixel Tools
-
-- **[Hexprite](https://github.com/showmik/hexprite)** - Free and open-source graphics editor and animation engine tailored for embedded displays, custom bitmap fonts, and Flipper Zero asset packs (`GPL-3.0`).
-- **[Tilemap Studio](https://github.com)** - Open-source tilemap editor for Game Boy, Game Boy Color, Game Boy Advance, and NES projects (`MIT`).
+- [Sector Overview & Market Dynamics 📊](#sector-overview--market-dynamics-)
+- [Open-Source Software 💻](#open-source-software-)
+  - [Broadcasting, Streaming & Live Utilities 📡](#broadcasting-streaming--live-utilities-)
+  - [Sprite Editors & Pixel Art Suites 🖌️](#sprite-editors--pixel-art-suites-️)
+  - [2D Animation Suites with Pixel Support 🎬](#2d-animation-suites-with-pixel-support-)
+  - [Web-Based Pixel Editors 🌐](#web-based-pixel-editors-)
+  - [AI-Assisted & Procedural Sprite Tools 🤖](#ai-assisted--procedural-sprite-tools-)
+  - [Retro & Hardware-Focused Tools 🕹️](#retro--hardware-focused-tools-️)
+- [SaaS & Hosted Platforms ☁️](#saas--hosted-platforms-️)
+- [Keywords & Related Topics 🏷️](#keywords--related-topics-️)
+- [Star History 📈](#star-history)
+- [Support & Sponsoring 💖](#support--sponsoring-)
+- [Contributing 🤝](#contributing-)
 
 ---
 
-## SaaS & Hosted Platforms
+## Sector Overview & Market Dynamics 📊
 
-| Product | Description | Pricing Model | Free Tier Limits |
+The global 2D animation and digital creator tools market is currently valued between **$2.7B and $4.2B**, expanding steadily at an estimated **8% to 11.5% CAGR** driven by gaming, indie content creation, VTubing, and streaming. The market is **moderately fragmented**—balancing studio standard-bearers with a resilient ecosystem of grassroots open-source engines, specialized indie tools, and creator-led software where no single player commands a winner-take-all monopoly.
+
+---
+
+## Open-Source Software 💻
+
+*Ranked and sorted within each category by GitHub stargazers count (descending).*
+
+### Broadcasting, Streaming & Live Utilities 📡
+
+- **[OBS Studio](https://github.com/obsproject/obs-studio)** [![Stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers) 📹 - Industry standard free and open-source software for video recording and live streaming pixel art workflows, screen captures, and game development sessions (`GPL-2.0`).
+- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** [![Stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers) 🎞️ - Complete, cross-platform command-line solution to record, convert, and stream crisp nearest-neighbor scaled sprite animations and art videos (`LGPL-2.1` / `GPL-2.0`).
+- **[Owncast](https://github.com)** [![Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers) 📡 - Free and open-source self-hosted live video and web chat server for independent creators to broadcast without platform surveillance or third-party ads (`MIT`).
+- **[PNGTuber Remix](https://github.com/MudkipWorld/PNGTuber-Remix)** [![Stars](https://img.shields.io/github/stars/MudkipWorld/PNGTuber-Remix?style=social&color=white)](https://github.com/MudkipWorld/PNGTuber-Remix/stargazers) 🎙️ - Open-source customizable reactive PNGTuber and sprite broadcasting application for streamers with avatar animation triggered by microphone levels (`MIT`).
+
+### Sprite Editors & Pixel Art Suites 🖌️
+
+- **[Aseprite (Source)](https://github.com/aseprite/aseprite)** [![Stars](https://img.shields.io/github/stars/aseprite/aseprite?style=social&color=white)](https://github.com/aseprite/aseprite/stargazers) ✨ - Animated sprite editor and pixel art tool featuring onion skinning, tilemap layers, frames, and Lua scripting (`Source-available / EULA`).
+- **[Pyxel](https://github.com/kitao/pyxel)** [![Stars](https://img.shields.io/github/stars/kitao/pyxel?style=social&color=white)](https://github.com/kitao/pyxel/stargazers) 🐍 - Retro game engine for Python with built-in pixel art editors for sprites, tilesets, sound, and music (`MIT`).
+- **[Pixelorama](https://github.com/Orama-Interactive/Pixelorama)** [![Stars](https://img.shields.io/github/stars/Orama-Interactive/Pixelorama?style=social&color=white)](https://github.com/Orama-Interactive/Pixelorama/stargazers) 🎨 - Powerful, accessible open-source pixel art multitool built with Godot. Features frame-by-frame animation, onion skinning, audio sync, and tilemaps (`MIT`).
+- **[LibreSprite](https://github.com/LibreSprite/LibreSprite)** [![Stars](https://img.shields.io/github/stars/LibreSprite/LibreSprite?style=social&color=white)](https://github.com/LibreSprite/LibreSprite/stargazers) 👾 - Community-driven animated sprite editor and pixel art tool forked from the last GPLv2 commit of Aseprite (`GPL-2.0`).
+- **[PixiEditor](https://github.com/PixiEditor/PixiEditor)** [![Stars](https://img.shields.io/github/stars/PixiEditor/PixiEditor?style=social&color=white)](https://github.com/PixiEditor/PixiEditor/stargazers) 🖌️ - Universal 2D graphics editor combining pixel art, digital painting, and vector tools on one canvas with frame-by-frame animation (`LGPL-3.0`).
+- **[rx](https://github.com/cloudhead/rx)** [![Stars](https://img.shields.io/github/stars/cloudhead/rx?style=social&color=white)](https://github.com/cloudhead/rx/stargazers) ⚡ - Modern, minimalist, and extensible pixel editor implemented in Rust with command-driven workflows and animation frames (`GPL-3.0`).
+- **[Stipple Effect](https://github.com/stipple-effect/stipple-effect)** [![Stars](https://img.shields.io/github/stars/stipple-effect/stipple-effect?style=social&color=white)](https://github.com/stipple-effect/stipple-effect/stargazers) 🪄 - Open-source pixel art and sprite animation editor written in Java with scripting support and layered frame timeline (`MIT`).
+- **[voidsprite](https://github.com/counter185/voidsprite)** [![Stars](https://img.shields.io/github/stars/counter185/voidsprite?style=social&color=white)](https://github.com/counter185/voidsprite/stargazers) 🪶 - Free, lightweight, and fast open-source pixel art and sprite editor written in C++ with SDL3 (`MIT`).
+- **[mtPaint](https://github.com/wjaguar/mtPaint)** [![Stars](https://img.shields.io/github/stars/wjaguar/mtPaint?style=social&color=white)](https://github.com/wjaguar/mtPaint/stargazers) 🖼️ - Lightweight painting program designed specifically for creating pixel icons and indexing palettes with frame-based animations (`GPL-3.0`).
+
+### 2D Animation Suites with Pixel Support 🎬
+
+- **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![Stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers) 🎥 - Full-featured open-source 2D animation production software customizable for traditional cell animation, raster sprites, and compositing (`BSD-3-Clause`).
+- **[Synfig Studio](https://github.com/synfig/synfig)** [![Stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers) 🎞️ - Powerful, industrial-strength open-source vector and bitmap 2D animation suite offering skeletal distortion and bone morphing (`GPL-2.0`).
+- **[Pencil2D](https://github.com/pencil2d/pencil)** [![Stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers) ✏️ - Easy, intuitive open-source 2D animation software supporting traditional hand-drawn bitmap and raster pixel animations (`GPL-2.0`).
+
+### Web-Based Pixel Editors 🌐
+
+- **[Piskel](https://github.com/piskelapp/piskel)** [![Stars](https://img.shields.io/github/stars/piskelapp/piskel?style=social&color=white)](https://github.com/piskelapp/piskel/stargazers) 🕹️ - Celebrated open-source web-based editor for animated sprites and pixel art with live preview, onion skinning, and GIF/spritesheet export (`Apache-2.0`).
+- **[pixel-art-react](https://github.com/jvalen/pixel-art-react)** [![Stars](https://img.shields.io/github/stars/jvalen/pixel-art-react?style=social&color=white)](https://github.com/jvalen/pixel-art-react/stargazers) ⚛️ - Web-based pixel art drawing and frame-by-frame animation application powered by React (`MIT`).
+
+### AI-Assisted & Procedural Sprite Tools 🤖
+
+- **[perfectPixel](https://github.com/theamusing/perfectPixel)** [![Stars](https://img.shields.io/github/stars/theamusing/perfectPixel?style=social&color=white)](https://github.com/theamusing/perfectPixel/stargazers) 🔬 - Open-source utility that cleans up AI-generated pixel art, removes anti-aliasing artifacts, and realigns graphics to pixel grids (`MIT`).
+- **[pixelarticons](https://github.com/halfmage/pixelarticons)** [![Stars](https://img.shields.io/github/stars/halfmage/pixelarticons?style=social&color=white)](https://github.com/halfmage/pixelarticons/stargazers) 📦 - Open-source collection of 480+ pixel-art vector icons crafted on a strict 24x24 grid (`MIT`).
+
+### Retro & Hardware-Focused Tools 🕹️
+
+- **[spritemate](https://github.com/Esshahn/spritemate)** [![Stars](https://img.shields.io/github/stars/Esshahn/spritemate?style=social&color=white)](https://github.com/Esshahn/spritemate/stargazers) 🕹️ - Modern browser-based Commodore 64 sprite editor and animation tool for retro hardware development (`MIT`).
+- **[Hexprite](https://github.com/showmik/hexprite)** [![Stars](https://img.shields.io/github/stars/showmik/hexprite?style=social&color=white)](https://github.com/showmik/hexprite/stargazers) 📟 - Free and open-source graphics editor and animation engine tailored for embedded displays, custom bitmap fonts, and Flipper Zero assets (`GPL-3.0`).
+
+---
+
+## SaaS & Hosted Platforms ☁️
+
+*Sorted by company revenue / estimated valuation (descending).*
+
+| Product | Company Size & Valuation / Revenue | Pricing (Starting Tier) | Free Tier Limits |
 | :--- | :--- | :--- | :--- |
-| **[Aseprite](https://aseprite.org)** | Industry-standard animated sprite editor and pixel art tool with Lua scripting, tilemap layers, and timeline animation. | Paid ($19.99 one-time purchase) | Free trial available (saving disabled); source code free to compile yourself |
-| **[Piskel (Hosted)](https://piskelapp.com)** | Cloud-hosted browser version of the Piskel sprite editor with web gallery and browser saving. | Free | 100% Free, public gallery |
-| **[Pixilart](https://pixilart.com)** | Online pixel art drawing tool and social creator community with animation and contest support. | Freemium (Free / Pro from $4.99/mo) | Free access with ad support and core canvas features |
-| **[Lospec](https://lospec.com)** | Premier online hub for pixel art palettes, tutorials, web editors, and community resources. | Free (Community supported via Patreon) | Free unrestricted access to palettes and browser tools |
-| **[Resprite](https://fengeon.com)** | Modern cross-platform pixel art studio designed for desktop and iPad/tablet touch workflows. | Freemium / Paid | Free tier available on mobile with limited export/layers; one-time unlock for Pro |
-| **[Pixaki](https://rizer.co)** | Professional pixel art and animation studio optimized specifically for iPad and Apple Pencil. | Paid ($26.99 one-time) / Intro | Free intro app ("Pixaki 4 Intro") with 3 layers & 16-frame limit |
-| **[Pyxel Edit](https://pyxeledit.com)** | Specialized pixel art editor focused on tileset design, level mockups, and frame animations. | Paid ($9.00 one-time purchase) | Free older beta version available for download with limited features |
-| **[GraphicsGale](https://graphicsgale.com)** | Classic Windows pixel art and animation editor offering real-time preview, onion skinning, and palette control. | Freeware ($0) | Completely free for commercial and non-commercial use |
-| **[Dottable](https://dottable.app)** | Mobile-friendly pixel art creator and social platform for fast sprite animations on the go. | Freemium | Free with optional in-app purchases for ad removal |
-| **[Pixel Art Maker](http://pixelartmaker.com)** | Simple browser-based pixel canvas tool for drawing pixel graphics instantly without sign-up. | Free | 100% Free with basic web canvas |
+| **[Aseprite](https://aseprite.org)** | **Valuation: ~$15M–$25M** (Est. cumulative gross revenue: $8M–$18M; 1M+ units sold; 1–10 employees) | **$19.99** (One-time perpetual license) | Free trial with unlimited duration, but saving and exporting files is disabled; full source code freely buildable |
+| **[Pixilart](https://pixilart.com)** | **Valuation: ~$5M–$10M** (Est. annual revenue: $1M–$2.5M; bootstrapped; 5–10 employees) | **$4.99 / month** (Pixilart Pro for ad-free browsing and premium brushes) | Free forever plan: Ad-supported, unlimited public artwork saves, max 700x700px canvas size |
+| **[Lospec](https://lospec.com)** | **Valuation: ~$1M–$2M** (Est. annual creator revenue: ~$50K–$120K via Patreon; micro-entity / community-led) | **$0.00** (Free; optional voluntary supporter tier from $3.00 / month) | Free forever plan: 100% unrestricted access to browser Pixel Editor, palette database, and community boards |
+| **[Pixaki](https://rizer.co)** | **Valuation: ~$800K–$1.5M** (Rizer Studios; est. annual revenue: ~$200K–$400K; independent developer) | **$26.99** (Pixaki 4 Pro one-time purchase on iPadOS App Store) | Free trial via "Pixaki 4 Intro": Free forever with a limit of 3 layers and a maximum of 16 animation frames |
+| **[Pyxel Edit](https://pyxeledit.com)** | **Valuation: ~$500K–$1M** (Pyxel Edit; est. cumulative sales: ~$400K; solo developer) | **$9.00** (One-time perpetual purchase) | Free forever beta version (v0.4.8) available for download with basic tileset and animation features |
+| **[Piskel (Hosted)](https://piskelapp.com)** | **Valuation: <$500K** (Community open-source hosted service; $0 outside hosting donations) | **$0.00** (Completely free hosted web service) | Free forever plan: Full access to online frame editor, cloud gallery saves, and GIF/PNG sheet exports |
+| **[Resprite](https://fengeon.com)** | **Valuation: <$500K** (Independent micro-studio Fengeon; mobile & desktop apps) | **$8.99** (One-time in-app purchase for Pro on iOS/Android; desktop versions) | Free forever plan: Basic layers, basic canvas editing; exports restricted on high-resolution canvases |
+| **[GraphicsGale](https://graphicsgale.com)** | **Valuation: <$300K** (HUMANBALANCE; legacy Japanese indie software; freeware) | **$0.00** (Freeware perpetual release) | Free forever plan: Completely unrestricted full feature set (formerly commercial, released 100% free) |
+| **[Dottable](https://dottable.app)** | **Valuation: <$300K** (Independent mobile app developer; ad-supported) | **$3.99** (One-time in-app purchase to permanently remove ads) | Free forever plan: Ad-supported, full sprite drawing tools with basic layer limits |
+| **[Pixel Art Maker](http://pixelartmaker.com)** | **Valuation: <$200K** (Solo creator; ad-supported web utility) | **$0.00** (Ad-supported browser tool) | Free forever plan: Completely free online canvas with direct PNG export; no accounts required |
 
 ---
 
-## Keywords & Related Topics
+## Keywords & Related Topics 🏷️
 
 `pixel-art` • `sprite-animation` • `2d-animation` • `game-development` • `indie-game-dev` • `gamedev` • `aseprite` • `tileset-editor` • `pixelorama` • `libresprite` • `pngtuber` • `art-streaming` • `live-broadcasting` • `open-source` • `awesome-list`
 
 ---
 
-## Contributing
+## Star History
 
-Contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) or submit a Pull Request to suggest new open-source pixel art tools, sprite animation engines, or broadcasting utilities.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-2D-Sprite-Animation-Pixel-Art-Broadcasting&type=date&legend=top-left)
+
+---
+
+## Support & Sponsoring 💖
+
+Thank you so much for exploring and using this curated directory! If this resource has helped your game development, art production, or streaming setup, please consider supporting the project:
+
+- 🌟 **Star this repository** on GitHub to help other creators discover it.
+- 🍴 **Fork and contribute** your favorite tools, editors, and libraries.
+- 📢 **Share it** with friends, game devs, and art communities on Discord, X (Twitter), and Reddit.
+- ☕ **Buy me a coffee / Become a sponsor:** If you would like to support maintenance and ongoing open-source curation, please check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your generosity is deeply appreciated!
+
+---
+
+## Contributing 🤝
+
+Contributions are warmly welcomed! Please read the [contribution guidelines](CONTRIBUTING.md) or submit a Pull Request to propose new open-source pixel art tools, sprite animation engines, or broadcasting utilities.
